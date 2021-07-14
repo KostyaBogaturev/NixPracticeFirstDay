@@ -14,6 +14,11 @@ namespace Library
             Name = name;
         }
 
+        public User()
+        {
+
+        }
+
         public double GetSalary(double salaryPerHour, int workTime) => salaryPerHour * workTime;
     }
 }
